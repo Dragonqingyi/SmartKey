@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Jundao</string>
+    <string name="key">智能钥匙</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="num">账号</string>
+    <string name="rem">记住密码</string>
+    <string name="foget">忘记密码</string>
+    <string name="singup">注册</string>
+    <string name="bueltooth">蓝牙</string>
+    <string name="wifi">WIFI</string>
+    <string name="keylist">钥匙列表</string>
+    <string name="addkey">添加钥匙</string>
+    <string name="openkey">自动解锁</string>
+</resources>

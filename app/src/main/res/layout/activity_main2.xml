@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009D97"
+    android:orientation="vertical"
+    tools:context="com.example.love.jundao.Main2Activity">
+
+
+    <RadioGroup
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rad3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_weight="1"
+            android:text="@string/bueltooth"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/rad4"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_weight="1"
+            android:text="@string/wifi"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="48dp"
+            android:background="@drawable/shape1"
+            android:text="@string/keylist"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="48dp"
+            android:layout_marginStart="64dp"
+            android:background="@drawable/shape2"
+            android:text="@string/openkey"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginStart="50dp"
+            android:src="@drawable/key"
+            android:layout_width="96dp"
+            android:layout_height="48dp" />
+        <Switch
+            android:layout_marginStart="108dp"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginStart="50dp"
+            android:src="@drawable/k2"
+            android:layout_width="96dp"
+            android:layout_height="48dp" />
+        <Switch
+            android:layout_marginStart="108dp"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginStart="50dp"
+            android:src="@drawable/k3"
+            android:layout_width="96dp"
+            android:layout_height="48dp" />
+        <Switch
+            android:layout_marginStart="108dp"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginStart="50dp"
+            android:src="@drawable/k4"
+            android:layout_width="96dp"
+            android:layout_height="48dp" />
+        <Switch
+            android:layout_marginStart="108dp"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginStart="50dp"
+            android:src="@drawable/k5"
+            android:layout_width="96dp"
+            android:layout_height="48dp" />
+        <Switch
+            android:layout_marginStart="108dp"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginStart="50dp"
+            android:src="@drawable/add"
+            android:layout_width="90dp"
+            android:layout_height="45dp" />
+        <Button
+            android:id="@+id/addkey"
+            android:layout_gravity="center"
+            android:layout_width="120dp"
+            android:text="@string/addkey"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:layout_height="32dp"
+            android:layout_marginStart="64dp"
+            android:background="@drawable/shape3"/>
+
+    </LinearLayout>
+
+</LinearLayout>
